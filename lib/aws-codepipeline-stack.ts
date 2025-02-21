@@ -18,7 +18,7 @@ export class AwsCodepipelineStack extends cdk.Stack {
         input: CodePipelineSource.gitHub('amaben2020/aws-cicd', 'main'),
         // commands: ['cd aws-codepipeline', 'npm ci', 'npx cdk synth'],
         commands: ['npm ci', 'npm run build', 'npx cdk synth'],
-        primaryOutputDirectory: 'cdk-cicd/cdk.out',
+        // primaryOutputDirectory: 'cdk-cicd/cdk.out',
       }),
     });
 
