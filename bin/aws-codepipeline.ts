@@ -5,4 +5,4 @@ import { AwsCodepipelineStack } from '../lib/aws-codepipeline-stack';
 const app = new cdk.App();
 new AwsCodepipelineStack(app, 'AwsCodepipelineStack', {});
 
-app.synth();
+// app.synth();
